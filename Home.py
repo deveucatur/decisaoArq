@@ -5,8 +5,8 @@ from PIL import Image
 #icone = Image.open('icone.png')
 
 st.set_page_config(
-    page_title="RISSDEC",
-    page_icon=":v",
+    page_title="Viabilidade",
+    page_icon="",
     layout="wide")
 
 #st.image(Image.open("icone.png"), width=180)
@@ -97,7 +97,7 @@ def main():
 
     # Definir o limiar para viabilidade das alternativas
     with st.expander("Limiar para viabilidade"):
-        limiar = st.slider("Defina o limiar para viabilidade (0 a 1)", 0.0,10.0, 3.75)
+        limiar = st.slider("Defina o limiar para viabilidade (0 a 1)", 0.0,10.0, 5.5)
 
 
     # Classifica as alternativas por ordem de viabilidade (maior pontuação)
