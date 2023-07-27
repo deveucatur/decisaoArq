@@ -51,7 +51,7 @@ def main():
     "Inovação e Diferenciação",
     "Tempo de Retorno"
 ]
-    col1,col2 = st.columns([4,1[)
+    col1,col2 = st.columns([4,1])
     with col2:
         alternativas=[]
         n_alter = st.number_input("Nº de Soluções",1,step = 1)
